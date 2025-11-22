@@ -12,7 +12,7 @@ The project includes data loading, training, saving/loading the model, and predi
 ├── data/               # MNIST dataset (auto-downloaded)
 ├── model_state.pt      # Saved trained model
 ├── img_3.jpg           # Example image for prediction
-├── main.py             # Training + inference script
+├── torchnn.py             # Training + inference script
 └── README.md           # This file
 ```
 
@@ -44,7 +44,7 @@ Ensure you have a CUDA-enabled version of PyTorch if using a GPU.
 Run the script:
 
 ```bash
-python main.py
+python torchnn.py
 ```
 
 The training loop runs for 10 epochs using:
